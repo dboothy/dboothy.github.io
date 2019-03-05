@@ -1,0 +1,62 @@
+#home {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/Main-Image/city_2.png");
+    min-height: 100%;
+}
+
+.nav-items a {
+    margin-right: 100px;
+}
+
+.nav-wrapper a {
+    font-family: saarlandmedium;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+  #title{
+  	font-size: 60px;
+  	font-family: saarlandmedium;
+  	margin: 5px;
+
+  }
+
+   #name{ 
+font-size: 80px;
+font-family:Mastodon;
+margin-bottom: -48px;
+margin: 10px;
+  }
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+@import url(https://db.onlinewebfonts.com/c/482e567a4c12207e2ce097503a410542?family=Mastodon);
+@import url(https://fontsme.com/saarland.font);
+
+@font-face {
+    font-family: "Mastodon";
+    src: url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.eot");
+    src: url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.eot?#iefix") format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.woff2") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.ttf") format("truetype"),
+        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.svg#Mastodon") format("svg");
+}
+
+
+@font-face {
+    font-family: 'saarlandmedium';
+    src: url('saarland-webfont.woff2') format('woff2'),
+        url('saarland-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
