@@ -2010,8 +2010,10 @@ $jscomp.polyfill = function (e, r, p, m) {
             var index = $collapsibleLis.index($collapsibleLi);
 
             if (isActive) {
+              console.log("close")
               this.close(index);
             } else {
+              console.log("open")
               this.open(index);
             }
           }

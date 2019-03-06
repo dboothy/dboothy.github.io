@@ -8,6 +8,10 @@
     <!-- original stylesheet in 'style folder' -->
     <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
     <!-- materialize stylesheet location -->
+    <script type="text/javascript" src="app/jquery.js"></script>
+    <!-- jQuery location -->
+    <script type="text/javascript" src="app/jqueryui.js"></script>
+    <!-- jQuery UI location that does not contain tooltip -->
     <script type="text/javascript" src="app/app.js"></script>
     <!-- original javascript file location -->
     <script type="text/javascript" src="materialize/js/materialize.js"></script>
@@ -45,7 +49,7 @@
         <h3 style="background-color: black; color: white; font-family: Mastodon ; padding: 20px; font-size: 60px; width: 100%; display: inline-block; background-size: cover; margin-top: 0px;">About</h3>
         <div class="col s12 image-container" style=" padding: 1%;  ">
             <div class="col s12 m6 l4 profile-image-wrapper" ">
-        <img src = "images/About-Me/profile.jpg" style=" height: 300px; border-radius: 40%; left: 10px;">
+        <img src = " images/About-Me/profile.jpg" style=" height: 300px; border-radius: 40%; left: 10px;">
             </div>
             <div class="col s12 m6 l4 text-wrapper" style="text-align: left;font-size: 25px; font-family: saarlandmedium; ">
                 <p>I graduated from San Francisco State University with a B.A. in Political Science and completed the Web Development bootcamp at UC Berkeley Extesnion.</p>
@@ -58,6 +62,278 @@
             </div>
         </div>
     </div>
+    <style type="text/css">
+    .icon-wrap {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        margin: 0;
+    }
+    </style>
+    <div class="row">
+        <div class="col s1 m1 l1 xl1"></div>
+        <div class="col s12 m6 l4 xl3">
+            <div class="card holder">
+                <div class=" card-content" id="card-frame" style="text-align: center;">
+                    <span class="card-title" style="text-align: center; background-color: black; font-family: Mastodon; color: white;">Hobbies</span>
+                    <div class="container icon-wrapper" style="display: inline-block;">
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Food Challenges">
+                                <img class="pers-icon" src="images/About-Me/eating.png" style="height: 75px; cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Weight Training">
+                                <img class="pers-icon" src="images/About-Me/weightlifting.png" style="height: 75px; cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Video Games">
+                                <img class="pers-icon" src="images/About-Me/video-game.png" style="height: 75px; cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Calisthenics">
+                                <img class="pers-icon" src="images/About-Me/stretching-exercises.png" style="height: 75px;cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Traveling">
+                                <img class="pers-icon" src="images/About-Me/traveler-with-a-suitcase.png" style="height: 75px;cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Movies">
+                                <img class="pers-icon" src="images/About-Me/people-watching-a-movie.png" style="height: 75px;cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+            <div class="card holder2">
+                <div class=" card-content" id="card-frame" style="text-align: center;">
+                    <span class="card-title" style="text-align: center; background-color: black; font-family: Mastodon; color: white;">Interests</span>
+                    <div class="container icon-wrapper" style="display: inline-block;">
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Dragon Ball Z">
+                                <img class="pers-icon" src="images/About-Me/dbz.png" style="height: 100px;cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Politics">
+                                <img class="pers-icon" src="images/About-Me/newspaper.png" style="height: 100px;cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Resident Evil">
+                                <img class="pers-icon" src="images/About-Me/Resident-Evil.png" style="height: 100px;cursor: pointer;">
+                            </a>
+                        </div>
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="bottom" data-tooltip="Cars">
+                                <img class="pers-icon" src="images/About-Me/sedan-car-model.png" style="height: 100px;cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+            <div class="card holder">
+                <div class=" card-content" id="card-frame" style="text-align: center;">
+                    <span class="card-title" style="text-align: center; background-color: black; font-family: Mastodon; color: white;">Childhood Dream Job</span>
+                    <div class="container icon-wrapper" style="display: inline-block;">
+                        <div class="icon-wrap">
+                            <a class="tooltipped" data-position="top" data-tooltip="Ice Cream Man :)">
+                                <img class="pers-icon" src="images/About-Me/ice-cream-van.png" style="height: 200px; cursor: pointer;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row" id="Skills" style="text-align: center; background-color: #CFDAE2; margin-bottom: 0px !important;">
+            <h3 style="background-color: black; color: white; font-family: Mastodon ; padding: 20px; font-size: 60px; width: 100%; display: inline-block; background-size: cover; margin-top: 0px;">Skills
+            </h3>
+            <div id="skills-section" style="background-color: #CFDAE2;">
+                <div class="tech-image">
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="HTML"> --><img class="tech-icon" src="images/Technology-Logos/html.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="CSS"> --><img class="tech-icon" src="images/Technology-Logos/css.png" style="cursor: pointer"><!-- </a> -->
+                    <!--  <a class="tooltipped" data-position="bottom" data-tooltip="JavaScript"> --><img class="tech-icon" src="images/Technology-Logos/javascript.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="AJAX"> --><img class="tech-icon" src="images/Technology-Logos/ajax.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="Passport"> --><img class="tech-icon" src="images/Technology-Logos/passport.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="Bootstrap"> --><img class="tech-icon" src="images/Technology-Logos/bootstrap.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="Firebase"> --><img class="tech-icon" src="images/Technology-Logos/firebase.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="Git"> --><img class="tech-icon" src="images/Technology-Logos/git.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="handlebars.js"> --><img class="tech-icon" src="images/Technology-Logos/handlebars-js.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="JSON"> --><img class="tech-icon" src="images/Technology-Logos/json.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="Node.js"> --><img class="tech-icon" src="images/Technology-Logos/node-js.png" style="cursor: pointer"><!-- </a> -->
+                    <!--  <a class="tooltipped" data-position="bottom" data-tooltip="jQuery"> --><img class="tech-icon" src="images/Technology-Logos/jquery.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="React.JS"> --><img class="tech-icon" src="images/Technology-Logos/react.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="REST API"> --><img class="tech-icon" src="images/Technology-Logos/restapi.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="Sequelize"> --><img class="tech-icon" src="images/Technology-Logos/sequelize.png" style="cursor: pointer"><!-- </a> -->
+                    <!--  <a class="tooltipped" data-position="bottom" data-tooltip="MongoDB"> --><img class="tech-icon" src="images/Technology-Logos/mongodb.png" style="cursor: pointer"><!-- </a> -->
+                    <!-- <a class="tooltipped" data-position="bottom" data-tooltip="MySQL"> --><img class="tech-icon" src="images/Technology-Logos/mysql.png" style="cursor: pointer"><!-- </a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row" id="Projects" style="text-align: center;margin-bottom: 0px !important;">
+            <h3 style="background-color: black; color: white; font-family: Mastodon ; padding: 20px; font-size: 60px; width: 100%; display: inline-block; background-size: cover; margin-top: 0px; margin-bottom: 0px;">Projects
+            </h3>
+        </div>
+        <div class="row" style="width:660px;">
+            <div class="col s6 m12 l12 card-row">
+                <div class="card horizontal">
+                    <div class="card-image"><a href="https://dboothy.github.io/TriviaGame/" target="__blank">
+                            <img src="images/Project-Images/movie-trivia.png">
+                        </a>
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content" id="card-frame">
+                            <div class="card-inside">
+                                <p style="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus, sem vel congue aliquet, risus est fermentum lectus, at placerat dolor quam et turpis.</p>
+                                <span>
+                                <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">Read Me</a>
+                                 <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">View</a>
+                                </span>
+                            </div>
+                            <ul class="collapsible popout" id="popout-frame" data-collapsible="accordion">
+                                <li id="app-button">
+                                    <div class="collapsible-header" id="app-title" href="">Movie Trivia</div>
+                                    <div class="collapsible-body" id="app-body">
+                                        <div class="chip">HTML</div>
+                                        <div class="chip">CSS </div>
+                                        <div class="chip">BootStrap</div>
+                                        <div class="chip">JavaScript</div>
+                                        <div class="chip">JQuery</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l12">
+                <div class="card horizontal">
+                    <div class="card-image"><a href="https://dry-fortress-69272.herokuapp.com/" target="__blank">
+                            <img src="images/Project-Images/friendfinder.png">
+                        </a>
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content" id="card-frame">
+                            <div class="card-inside">
+                                <p>CRUD application that routes using Express to display calculated matches based on user input.
+                                    <br>
+                                    <br>
+                                <span>
+                                <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">Read Me</a>
+                                 <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">View</a>
+                                </span>
+
+                            </div>
+                            <ul class="collapsible popout" id="popout-frame" data-collapsible="accordion">
+                                <li id="app-button">
+                                    <div class="collapsible-header" id="app-title">Friend Finder</div>
+                                    <div class="collapsible-body" id="app-body">
+                                        <div class="chip">HTML</div>
+                                        <div class="chip">CSS</div>
+                                        <div class="chip">JavaScript</div>
+                                        <div class="chip"> Node.js </div>
+                                        <div class="chip">Express</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l12">
+                <div class="card horizontal">
+                    <div class="card-image"><a href="https://dboothy.github.io/GifTasticHW/" target="__blank">
+                            <img src="images/Project-Images/sfgif.png">
+                        </a>
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content" id="card-frame">
+                            <div class="card-inside">
+                                <p> App that pulls data from Giphy's API to display gifs of movies that take place in San Francisco.</p>
+                                <br>
+                                <span>
+                                <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">Read Me</a>
+                                 <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">View</a>
+                                </span>
+                            </div>
+                            <ul class="collapsible popout" id="popout-frame" data-collapsible="accordion">
+                                <li id="app-button">
+                                    <div class="collapsible-header" id="app-title">San Francisco Giphy</div>
+                                    <div class="collapsible-body" id="app-body">
+                                        <div class="chip"> HTML </div>
+                                        <div class="chip"> CSS </div>
+                                        <div class="chip">JavaScript</div>
+                                        <div class="chip">jQuery </div>
+                                        <div class="chip">API</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m12 l12">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <a href="https://let-go-go-get.herokuapp.com/" target="__blank"><img src="images/Project-Images/letgo.png"></a>
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content" id="card-frame">
+                            <div class="card-inside">
+                                <p>CRUD application routed by an MVC allowing users to get, post, edit and delete goods for sale.</p>
+                                <br>
+                                <span>
+                                <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">Read Me</a>
+                                 <a class="waves-effect waves-light btn-small z-depth-2 contact-button2" href="https://dboothy.github.io/TriviaGame/" target="__blank">View</a>
+                                </span>
+                            </div>
+                            <ul class="collapsible popout" id="popout-frame" data-collapsible="accordion">
+                                <li id="app-button">
+                                    <div class="collapsible-header" id="app-title">Let Go - Go Get</div>
+                                    <div class="collapsible-body" id="app-body">
+                                        <div class="chip">MySQL </div>
+                                        <div class="chip">Sequelize</div>
+                                        <div class="chip">JavaScript</div>
+                                        <div class="chip">HTML</div>
+                                        <div class="chip">CSS</div>
+                                        <div class="chip">Passport</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="contact-div" class="row" style="text-align: center;">
+            <h3 style="background-color: black; color: white; font-family: Mastodon ; padding: 20px; font-size: 60px; width: 100%; display: block; background-size: cover;">CONTACT</h3>
+            <p style="background-color: white; color: black; text-align: center; font-family: saarlandmedium; font-size: 60px;">
+                <span style="font-family: Mastodon; font-size: 60px;">EMAIL:</span> davidbmetwally@gmail.com<br>
+                <span style="font-family: Mastodon; font-size: 60px;">PHONE:</span> 415-524-9733
+            </p>
+            <div class="container">
+                <a class="waves-effect waves-light btn-large z-depth-4 contact-button">LinkedIn</a>
+                <a class="waves-effect waves-light btn-large z-depth-4  contact-button">Github</a>
+                <a class="waves-effect waves-light btn-large z-depth-4  contact-button">Resume</a>
+            </div>
+        </section>
+        <footer class="page-footer black">
+            <div class="footer-copyright">
+                <div class="container" style="text-align: center;">
+                    © 2019 David Booth-Metwally
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>

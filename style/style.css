@@ -1,62 +1,511 @@
-#home {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/Main-Image/city_2.png");
-    min-height: 100%;
-}
+  .contact-button {
+      display: inline-block;
+      vertical-align: middle;
+      box-shadow: 0 0 1px transparent;
+      position: relative;
+      transition-duration: 0.3s;
+      color: #000000 !important;
+      background: #e1e1e1;
+      background-color: #CFDAE2 !important;
+      text-decoration: none;
+      color: #000000;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-font-smo othing: antialiased;
+      margin: 8px;
+      font-family: saarlandmedium;
+      font-size: 25px !important;
+      border-radius: 15px !important;
+  }
 
-.nav-items a {
-    margin-right: 100px;
-}
 
-.nav-wrapper a {
-    font-family: saarlandmedium;
-    font-size: 40px;
-    text-transform: uppercase;
-}
 
-  #title{
-  	font-size: 60px;
-  	font-family: saarlandmedium;
-  	margin: 5px;
+  .contact-button:hover {
+      transform: translateY(-10px) !important;
+
 
   }
 
-   #name{ 
-font-size: 80px;
-font-family:Mastodon;
-margin-bottom: -48px;
-margin: 10px;
+  .contact-button:active:before {
+      opacity: 1;
+      transform: translateY(10px) !important;
   }
 
-body,
-html {
-    height: 100%;
-    margin: 0;
+
+  .contact-button:hover:before {
+      pointer-events: none;
+      position: absolute;
+      z-index: -1;
+      content: '';
+      top: 100%;
+      left: 5%;
+      height: 10px;
+      width: 90%;
+      background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform, opacity;
+      transition-property: transform, opacity;
+  }
+
+
+  .contact-button2 {
+      display: inline-block;
+      vertical-align: middle;
+      box-shadow: 0 0 1px transparent;
+      position: relative;
+      transition-duration: 0.3s;
+      color: #000000 !important;
+      background: #e1e1e1;
+      background-color: #CFDAE2 !important;
+      text-decoration: none;
+      color: #000000;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-font-smo othing: antialiased;
+      margin: 8px;
+      margin-right: 30px;
+      margin-left: 30px;
+      font-family: saarlandmedium;
+      font-size: 25px !important;
+      border-radius: 15px !important;
+  }
+
+
+
+  .contact-button2:hover {
+      transform: translateY(-5px) !important;
+
+
+  }
+
+  .contact-button2:active:before {
+      opacity: 1;
+      transform: translateY(5px) !important;
+  }
+
+
+  .contact-button2:hover:before {
+      pointer-events: none;
+      position: absolute;
+      z-index: -1;
+      content: '';
+      top: 100%;
+      left: 5%;
+      height: 10px;
+      width: 90%;
+      background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform, opacity;
+      transition-property: transform, opacity;
+  }
+
+
+  .holder {
+    background-color: #CFDAE2 !important;
 }
 
-@import url(https://db.onlinewebfonts.com/c/482e567a4c12207e2ce097503a410542?family=Mastodon);
-@import url(https://fontsme.com/saarland.font);
-
-@font-face {
-    font-family: "Mastodon";
-    src: url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.eot");
-    src: url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.eot?#iefix") format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.woff2") format("woff2"),
-        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.woff") format("woff"),
-        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.ttf") format("truetype"),
-        url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.svg#Mastodon") format("svg");
+.holder2 {
+    background-color: #CECECE !important;
 }
 
 
-@font-face {
-    font-family: 'saarlandmedium';
-    src: url('saarland-webfont.woff2') format('woff2'),
-        url('saarland-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  #home {
+      position: relative;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../images/Main-Image/city_2.png");
+      min-height: 100%;
+  }
+
+  .nav-items a {
+      margin-right: 100px;
+  }
+
+  .nav-wrapper a {
+      font-family: saarlandmedium;
+      font-size: 40px;
+      text-transform: uppercase;
+  }
+
+  #title {
+      font-size: 60px;
+      font-family: saarlandmedium;
+      margin: 5px;
+
+  }
+
+  #name {
+      font-size: 80px;
+      font-family: Mastodon;
+      margin-bottom: -48px;
+      margin: 10px;
+  }
+
+  .pers-icon{
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  transition-duration: 0.3s;
+  color: #000000
+  background: #e1e1e1;
+  text-decoration: none;
+  color: #000000;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smo othing: antialiased; 
+  margin:5px;
+  
 
 }
+
+.pers-icon:hover{
+
+  transform: translateY(-8px);
+
+}
+
+.pers-icon:active:before{
+
+       opacity: 1;
+transform: translateY(8px);
+
+}
+
+.pers-icon:hover:before{
+
+    pointer-events: none;
+    position: absolute;
+    z-index: 2;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+
+
+}
+
+
+
+  .tech-icon{
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  transition-duration: 0.3s;
+  color: #000000
+  background: #e1e1e1;
+  text-decoration: none;
+  color: #000000;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smo othing: antialiased; 
+  margin: 8px;   
+}
+
+.tech-icon:hover{
+  transform: translateY(10px);
+
+}
+
+.tech-icon:active:before{
+     opacity: 1;
+transform: translateY(-10px);
+
+  }
+
+.tech-icon:hover:before{
+
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+
+}
+
+
+  body,
+  html {
+      height: 100%;
+      margin: 0;
+      /*overflow-x: hidden !important;*/
+  }
+
+  @import url(https://db.onlinewebfonts.com/c/482e567a4c12207e2ce097503a410542?family=Mastodon);
+  @import url(https://fontsme.com/saarland.font);
+
+  @font-face {
+      font-family: "Mastodon";
+      src: url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.eot");
+      src: url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.eot?#iefix") format("embedded-opentype"),
+          url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.woff2") format("woff2"),
+          url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.woff") format("woff"),
+          url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.ttf") format("truetype"),
+          url("https://db.onlinewebfonts.com/t/482e567a4c12207e2ce097503a410542.svg#Mastodon") format("svg");
+  }
+
+
+  @font-face {
+      font-family: 'saarlandmedium';
+      src: url('saarland-webfont.woff2') format('woff2'),
+          url('saarland-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  /************************************Original CSS Style from Portfolio 1**********************************/
+  @import url(http://db.onlinewebfonts.com/c/2b9fcaa048890cfc7fef75901b77a90b?family=SF+Intellivised);
+
+  @font-face {
+      font-family: "SF Intellivised";
+      src: url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.eot");
+      src: url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.eot?#iefix") format("embedded-opentype"),
+          url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.woff2") format("woff2"),
+          url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.woff") format("woff"),
+          url("https://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.ttf") format("truetype"),
+          url("http://db.onlinewebfonts.com/t/2b9fcaa048890cfc7fef75901b77a90b.svg#SF Intellivised") format("svg");
+  }
+
+
+  nav ul li:hover {
+      background-color: white;
+  }
+
+  nav ul li {
+      display: inline-block;
+      text-align: center;
+  }
+
+#app-title{
+  background-color: black;
+  color: white;
+  /*font-weight: bolder;*/
+  text-align: center;
+  display: block;
+  font-family: Mastodon;
+  font-size: 30px;
+  padding: 0;
+}
+
+
+  #app-title:hover {
+      background-color: white;
+      opacity: .4;
+      color: black;
+      text-align: center;
+
+  }
+
+  .image-link {
+      text-align: center;
+
+  }
+
+  #app-body {
+      position: absolute;
+      z-index: 1;
+      background-color: white;
+      opacity: .95;
+  }
+
+  #app-body p {
+      margin-top: -5px;
+
+
+  }
+
+  #app-button {
+  margin-top: -6px ! important;
+}
+
+
+  #card-frame {
+      padding: 0;
+
+  }
+
+
+  .tech-image img {
+      height: 200px;
+      margin-top: 12px;
+  }
+
+  .technologies {
+
+      display: inline-block;
+      height: 32px;
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 32px;
+      padding: 0 12px;
+      border-radius: 16px;
+      background-color: #e4e4e4;
+      position: absolute;
+      z-index: 0;
+      top: 80px;
+      left: 61px;
+
+  }
+
+  #popout-frame {
+      padding: 0;
+  }
+
+  .logo-container {}
+
+  .imagepath {}
+
+  .card {
+      width: 100%;
+  }
+
+  .card .card-image img {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 268.75px !important;
+      height: 179.11px;
+
+  }
+
+  .footer-copyright {
+      text-align: center;
+  }
+
+  #view-button {
+      font-size: 10px;
+      margin-top: -30px;
+      margin-left: 134px;
+  }
+
+  main {
+
+      display: block;
+      margin-bottom: 35px;
+  }
+
+  #techskills-wrapper {
+      text-align: center;
+  }
+
+  #jobtitle {
+      font-style: italic;
+  }
+
+  #experiencelist li {
+      list-style-type: circle;
+
+
+  }
+
+  #volunteer-wrapper {}
+
+  #education-wrapper p {
+      font-size: 1.15rem;
+      line-height: 110%;
+      margin: .7666666667rem 0 .46rem
+  }
+
+  #downloadButton {
+      width: 181px;
+      padding-right: 24px;
+
+  }
+
+  .companyImage {
+      margin-left: -61px;
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      margin-top: -6px;
+  }
+
+
+  .schoolImage {
+      margin-left: -269px;
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      margin-top: -6px;
+  }
+
+
+  .image-click: hover {
+
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+
+  }
+
+  .image-click:hover {
+      opacity: 1;
+  }
+
+
+
+  .pill {
+      display: inline-block;
+      height: 32px;
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 32px;
+      padding: 0 12px;
+      border-radius: 16px;
+      background-color: #e4e4e4;
+
+  }
+
+
+
+
+.card-inside{
+position: absolute;
+    top: 60px;
+    left: 36px;
+    font-family: avenir;
+    width: 300px;
+
+    
+
+ }
+
+  hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0;
+  }
