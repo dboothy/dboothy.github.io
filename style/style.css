@@ -262,7 +262,7 @@
 
   #name {
       font-size: 80px;
-      font-family: mastodonregular;
+      font-family: mastodonbold;
       margin-bottom: -48px;
       margin: 10px;
   }
@@ -411,6 +411,15 @@ transform: translateY(-10px);
 
 }
 
+@font-face {
+    font-family: 'mastodonbold';
+    src: url('mastodb_-webfont.woff2') format('woff2'),
+         url('mastodb_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
   /************************************Original CSS Style from Portfolio 1**********************************/
 /*  @import url(http://db.onlinewebfonts.com/c/2b9fcaa048890cfc7fef75901b77a90b?family=SF+Intellivised);
 
@@ -437,7 +446,7 @@ transform: translateY(-10px);
   /*font-weight: bolder;*/
   text-align: center;
   display: block;
-  font-family: mastodonregular;
+  font-family: mastodonbold;
   font-size: 30px;
   padding: 0;
 }
