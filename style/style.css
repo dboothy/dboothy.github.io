@@ -1,3 +1,4 @@
+
   .contact-button {
       display: inline-block;
       vertical-align: middle;
@@ -101,13 +102,134 @@
       transition-property: transform, opacity;
   }
 
+/*@media only screen  and (max-width : 1390px) {
 
-  .holder {
+
+.holder .holder2 {
+
+  margin-left: 20px !important;
+
+    width:300px !important;
+
+  height:300px !important;
+
+}
+
+
+}
+*/
+
+
+
+
+@media only screen  and (min-width : 1201px) {
+
+.holder .holder2 {
+
+  margin-left: 46px !important;
+}
+
+
+
+  #card1{
+
+ margin-left: 10px !important;
+
+}
+
+#card2{
+ margin-left: 10px !important;
+}
+
+#card3 {
+
+  margin-left: 10px !important;
+}
+
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+
+#card2{
+
+    margin-left: 1px !important;
+
+
+}
+
+#card3{
+
+  margin-left: 1px !important;
+
+}
+
+
+.holder {
     background-color: #CFDAE2 !important;
+    margin-left: 0px !important;
+
 }
 
 .holder2 {
     background-color: #CECECE !important;
+    margin-left: 0px !important;
+}
+
+
+
+
+
+/* Styles */
+}
+
+/*#card2{
+
+    margin-left: 119px !important;
+
+
+}
+
+#card3{
+
+  margin-left: 139px !important;
+
+}*/
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+
+  #card2{
+
+    margin-left: 119px !important;
+
+
+}
+
+#card3{
+
+  margin-left: 139px !important;
+
+}
+/* Styles */
+}
+
+
+
+
+
+
+.holder {
+    background-color: #CFDAE2 !important;
+    margin-left: 10px !important;
+
+}
+
+.holder2 {
+    background-color: #CECECE !important;
+    margin-left: 10px !important;
 }
 
 
@@ -122,7 +244,7 @@
   }
 
   .nav-items a {
-      margin-right: 100px;
+      margin-right: 50px;
   }
 
   .nav-wrapper a {
@@ -157,21 +279,21 @@
   color: #000000;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smo othing: antialiased; 
-  margin:5px;
+  
   
 
 }
 
 .pers-icon:hover{
 
-  transform: translateY(-8px);
+  transform: translateY(8px);
 
 }
 
 .pers-icon:active:before{
 
        opacity: 1;
-transform: translateY(8px);
+transform: translateY(-8px);
 
 }
 
@@ -195,6 +317,19 @@ transform: translateY(8px);
 
 }
 
+.heading{
+  font-size: 40px !important;
+}
+
+/*.col-container {
+    display: table; 
+    width: 50%; 
+}*/
+
+.col {
+    display: table-cell;
+    margin-left: 10px;
+}
 
 
   .tech-icon{
@@ -245,10 +380,15 @@ transform: translateY(-10px);
 
   body,
   html {
-      height: 100%;
+      height: 96%;
       margin: 0;
       /*overflow-x: hidden !important;*/
   }
+
+  .section {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
 
   @import url(https://db.onlinewebfonts.com/c/482e567a4c12207e2ce097503a410542?family=Mastodon);
   @import url(https://fontsme.com/saarland.font);
@@ -287,9 +427,6 @@ transform: translateY(-10px);
   }
 
 
-  nav ul li:hover {
-      background-color: white;
-  }
 
   nav ul li {
       display: inline-block;
@@ -344,9 +481,14 @@ transform: translateY(-10px);
 
   }
 
+  #skills-section {
+
+    height: 100%;
+  }
+
 
   .tech-image img {
-      height: 200px;
+      height: 100px;
       margin-top: 12px;
   }
 
@@ -388,8 +530,8 @@ transform: translateY(-10px);
       right: 0;
       top: 0;
       bottom: 0;
-      width: 268.75px !important;
-      height: 179.11px;
+      width: 450px !important;
+      height: 250px !important;
 
   }
 

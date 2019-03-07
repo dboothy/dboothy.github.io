@@ -17,6 +17,7 @@ $(document).ready(function() {
     $(".collapsible div").mouseover(function() { $(this).trigger('click'); });
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
+    $('.sidenav').sidenav();
 
 
 
